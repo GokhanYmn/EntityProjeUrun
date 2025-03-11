@@ -29,41 +29,41 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblToplamUrun = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblAktifMusteri = new System.Windows.Forms.Label();
+            this.lbl3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblPasifMusteri = new System.Windows.Forms.Label();
+            this.lbl44 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblEndusukFiyatliUrun = new System.Windows.Forms.Label();
+            this.lbl45783 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lblEnyuksekFiyatlıUrun = new System.Windows.Forms.Label();
+            this.lbl2389 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.lblToplamStok = new System.Windows.Forms.Label();
+            this.lbl5341 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblBeyazEsya = new System.Windows.Forms.Label();
+            this.lbl4545 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
+            this.lblToplamBuzdolabiSayisi = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblEnfazlaUrunluMarka = new System.Windows.Forms.Label();
+            this.lbl6583 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.lblKasadakiTutar = new System.Windows.Forms.Label();
+            this.lbl676 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.lblSehirSayisi = new System.Windows.Forms.Label();
+            this.lbl898 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -88,16 +88,6 @@
             this.panel1.Size = new System.Drawing.Size(243, 171);
             this.panel1.TabIndex = 0;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(21, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 26);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Toplam Kategori Sayısı";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -108,335 +98,345 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "0";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(21, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(210, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Toplam Kategori Sayısı";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(107)))), ((int)(((byte)(107)))));
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.lblToplamUrun);
+            this.panel2.Controls.Add(this.lbl1);
             this.panel2.Location = new System.Drawing.Point(300, 23);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(243, 171);
             this.panel2.TabIndex = 2;
             // 
-            // label3
+            // lblToplamUrun
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(33, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 40);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "0";
+            this.lblToplamUrun.AutoSize = true;
+            this.lblToplamUrun.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamUrun.Location = new System.Drawing.Point(33, 76);
+            this.lblToplamUrun.Name = "lblToplamUrun";
+            this.lblToplamUrun.Size = new System.Drawing.Size(33, 40);
+            this.lblToplamUrun.TabIndex = 1;
+            this.lblToplamUrun.Text = "0";
             // 
-            // label4
+            // lbl1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(21, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(180, 26);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Toplam Ürün Sayısı";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl1.Location = new System.Drawing.Point(21, 15);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(180, 26);
+            this.lbl1.TabIndex = 0;
+            this.lbl1.Text = "Toplam Ürün Sayısı";
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(219)))), ((int)(((byte)(251)))));
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.lblAktifMusteri);
+            this.panel3.Controls.Add(this.lbl3);
             this.panel3.Location = new System.Drawing.Point(563, 23);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(243, 171);
             this.panel3.TabIndex = 2;
             // 
-            // label5
+            // lblAktifMusteri
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(33, 76);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 40);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "0";
+            this.lblAktifMusteri.AutoSize = true;
+            this.lblAktifMusteri.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAktifMusteri.Location = new System.Drawing.Point(33, 76);
+            this.lblAktifMusteri.Name = "lblAktifMusteri";
+            this.lblAktifMusteri.Size = new System.Drawing.Size(33, 40);
+            this.lblAktifMusteri.TabIndex = 1;
+            this.lblAktifMusteri.Text = "0";
             // 
-            // label6
+            // lbl3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(21, 15);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(186, 26);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Aktif Müşteri Sayısı";
+            this.lbl3.AutoSize = true;
+            this.lbl3.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl3.Location = new System.Drawing.Point(21, 15);
+            this.lbl3.Name = "lbl3";
+            this.lbl3.Size = new System.Drawing.Size(186, 26);
+            this.lbl3.TabIndex = 0;
+            this.lbl3.Text = "Aktif Müşteri Sayısı";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(209)))), ((int)(((byte)(161)))));
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.lblPasifMusteri);
+            this.panel4.Controls.Add(this.lbl44);
             this.panel4.Location = new System.Drawing.Point(832, 23);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(243, 171);
             this.panel4.TabIndex = 2;
             // 
-            // label7
+            // lblPasifMusteri
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(33, 76);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(33, 40);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "0";
+            this.lblPasifMusteri.AutoSize = true;
+            this.lblPasifMusteri.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblPasifMusteri.Location = new System.Drawing.Point(33, 76);
+            this.lblPasifMusteri.Name = "lblPasifMusteri";
+            this.lblPasifMusteri.Size = new System.Drawing.Size(33, 40);
+            this.lblPasifMusteri.TabIndex = 1;
+            this.lblPasifMusteri.Text = "0";
             // 
-            // label8
+            // lbl44
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(21, 15);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(184, 26);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Pasif Müşteri Sayısı";
+            this.lbl44.AutoSize = true;
+            this.lbl44.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl44.Location = new System.Drawing.Point(21, 15);
+            this.lbl44.Name = "lbl44";
+            this.lbl44.Size = new System.Drawing.Size(184, 26);
+            this.lbl44.TabIndex = 0;
+            this.lbl44.Text = "Pasif Müşteri Sayısı";
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(104)))), ((int)(((byte)(224)))));
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.lblEndusukFiyatliUrun);
+            this.panel5.Controls.Add(this.lbl45783);
             this.panel5.Location = new System.Drawing.Point(832, 245);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(243, 171);
             this.panel5.TabIndex = 4;
             // 
-            // label9
+            // lblEndusukFiyatliUrun
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(33, 76);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(33, 40);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "0";
+            this.lblEndusukFiyatliUrun.AutoSize = true;
+            this.lblEndusukFiyatliUrun.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEndusukFiyatliUrun.Location = new System.Drawing.Point(33, 76);
+            this.lblEndusukFiyatliUrun.Name = "lblEndusukFiyatliUrun";
+            this.lblEndusukFiyatliUrun.Size = new System.Drawing.Size(33, 40);
+            this.lblEndusukFiyatliUrun.TabIndex = 1;
+            this.lblEndusukFiyatliUrun.Text = "0";
             // 
-            // label10
+            // lbl45783
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(21, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(201, 26);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "En Düşük Fiyatlı Ürün";
+            this.lbl45783.AutoSize = true;
+            this.lbl45783.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl45783.Location = new System.Drawing.Point(21, 15);
+            this.lbl45783.Name = "lbl45783";
+            this.lbl45783.Size = new System.Drawing.Size(201, 26);
+            this.lbl45783.TabIndex = 0;
+            this.lbl45783.Text = "En Düşük Fiyatlı Ürün";
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label12);
+            this.panel6.Controls.Add(this.lblEnyuksekFiyatlıUrun);
+            this.panel6.Controls.Add(this.lbl2389);
             this.panel6.Location = new System.Drawing.Point(563, 245);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(243, 171);
             this.panel6.TabIndex = 5;
             // 
-            // label11
+            // lblEnyuksekFiyatlıUrun
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(33, 76);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(33, 40);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "0";
+            this.lblEnyuksekFiyatlıUrun.AutoSize = true;
+            this.lblEnyuksekFiyatlıUrun.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEnyuksekFiyatlıUrun.Location = new System.Drawing.Point(33, 76);
+            this.lblEnyuksekFiyatlıUrun.Name = "lblEnyuksekFiyatlıUrun";
+            this.lblEnyuksekFiyatlıUrun.Size = new System.Drawing.Size(33, 40);
+            this.lblEnyuksekFiyatlıUrun.TabIndex = 1;
+            this.lblEnyuksekFiyatlıUrun.Text = "0";
             // 
-            // label12
+            // lbl2389
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(21, 15);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(209, 26);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "En Yüksek Fiyatlı Ürün";
+            this.lbl2389.AutoSize = true;
+            this.lbl2389.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl2389.Location = new System.Drawing.Point(21, 15);
+            this.lbl2389.Name = "lbl2389";
+            this.lbl2389.Size = new System.Drawing.Size(209, 26);
+            this.lbl2389.TabIndex = 0;
+            this.lbl2389.Text = "En Yüksek Fiyatlı Ürün";
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(39)))), ((int)(((byte)(205)))));
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.label14);
+            this.panel7.Controls.Add(this.lblToplamStok);
+            this.panel7.Controls.Add(this.lbl5341);
             this.panel7.Location = new System.Drawing.Point(300, 245);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(243, 171);
             this.panel7.TabIndex = 6;
             // 
-            // label13
+            // lblToplamStok
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(33, 76);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(33, 40);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "0";
+            this.lblToplamStok.AutoSize = true;
+            this.lblToplamStok.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamStok.Location = new System.Drawing.Point(33, 76);
+            this.lblToplamStok.Name = "lblToplamStok";
+            this.lblToplamStok.Size = new System.Drawing.Size(33, 40);
+            this.lblToplamStok.TabIndex = 1;
+            this.lblToplamStok.Text = "0";
             // 
-            // label14
+            // lbl5341
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(21, 15);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(122, 26);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Toplam Stok";
+            this.lbl5341.AutoSize = true;
+            this.lbl5341.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl5341.Location = new System.Drawing.Point(21, 15);
+            this.lbl5341.Name = "lbl5341";
+            this.lbl5341.Size = new System.Drawing.Size(122, 26);
+            this.lbl5341.TabIndex = 0;
+            this.lbl5341.Text = "Toplam Stok";
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(210)))), ((int)(((byte)(211)))));
-            this.panel8.Controls.Add(this.label15);
-            this.panel8.Controls.Add(this.label16);
+            this.panel8.Controls.Add(this.lblBeyazEsya);
+            this.panel8.Controls.Add(this.lbl4545);
             this.panel8.Location = new System.Drawing.Point(32, 245);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(243, 171);
             this.panel8.TabIndex = 3;
             // 
-            // label15
+            // lblBeyazEsya
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(33, 76);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(33, 40);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "0";
+            this.lblBeyazEsya.AutoSize = true;
+            this.lblBeyazEsya.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblBeyazEsya.Location = new System.Drawing.Point(33, 76);
+            this.lblBeyazEsya.Name = "lblBeyazEsya";
+            this.lblBeyazEsya.Size = new System.Drawing.Size(33, 40);
+            this.lblBeyazEsya.TabIndex = 1;
+            this.lblBeyazEsya.Text = "0";
             // 
-            // label16
+            // lbl4545
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(21, 15);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(168, 26);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Beyaz Eşya Sayısı";
+            this.lbl4545.AutoSize = true;
+            this.lbl4545.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl4545.Location = new System.Drawing.Point(21, 15);
+            this.lbl4545.Name = "lbl4545";
+            this.lbl4545.Size = new System.Drawing.Size(168, 26);
+            this.lbl4545.TabIndex = 0;
+            this.lbl4545.Text = "Beyaz Eşya Sayısı";
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(172)))), ((int)(((byte)(132)))));
-            this.panel9.Controls.Add(this.label17);
+            this.panel9.Controls.Add(this.lblToplamBuzdolabiSayisi);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(832, 439);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(243, 171);
             this.panel9.TabIndex = 4;
             // 
-            // label17
+            // lblToplamBuzdolabiSayisi
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(33, 76);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(33, 40);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "0";
+            this.lblToplamBuzdolabiSayisi.AutoSize = true;
+            this.lblToplamBuzdolabiSayisi.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblToplamBuzdolabiSayisi.Location = new System.Drawing.Point(33, 76);
+            this.lblToplamBuzdolabiSayisi.Name = "lblToplamBuzdolabiSayisi";
+            this.lblToplamBuzdolabiSayisi.Size = new System.Drawing.Size(33, 40);
+            this.lblToplamBuzdolabiSayisi.TabIndex = 1;
+            this.lblToplamBuzdolabiSayisi.Text = "0";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(21, 15);
+            this.label18.Location = new System.Drawing.Point(19, 15);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(53, 26);
+            this.label18.Size = new System.Drawing.Size(221, 26);
             this.label18.TabIndex = 0;
-            this.label18.Text = "label";
+            this.label18.Text = "Toplam Buzdolabı Sayısı";
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(159)))), ((int)(((byte)(67)))));
-            this.panel10.Controls.Add(this.label19);
-            this.panel10.Controls.Add(this.label20);
+            this.panel10.Controls.Add(this.lblEnfazlaUrunluMarka);
+            this.panel10.Controls.Add(this.lbl6583);
             this.panel10.Location = new System.Drawing.Point(563, 439);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(243, 171);
             this.panel10.TabIndex = 5;
             // 
-            // label19
+            // lblEnfazlaUrunluMarka
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(33, 76);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(33, 40);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "0";
+            this.lblEnfazlaUrunluMarka.AutoSize = true;
+            this.lblEnfazlaUrunluMarka.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEnfazlaUrunluMarka.Location = new System.Drawing.Point(33, 76);
+            this.lblEnfazlaUrunluMarka.Name = "lblEnfazlaUrunluMarka";
+            this.lblEnfazlaUrunluMarka.Size = new System.Drawing.Size(33, 40);
+            this.lblEnfazlaUrunluMarka.TabIndex = 1;
+            this.lblEnfazlaUrunluMarka.Text = "0";
             // 
-            // label20
+            // lbl6583
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(16, 15);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(214, 26);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "En Fazla Ürünlü Marka";
+            this.lbl6583.AutoSize = true;
+            this.lbl6583.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl6583.Location = new System.Drawing.Point(16, 15);
+            this.lbl6583.Name = "lbl6583";
+            this.lbl6583.Size = new System.Drawing.Size(214, 26);
+            this.lbl6583.TabIndex = 0;
+            this.lbl6583.Text = "En Fazla Ürünlü Marka";
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(104)))), ((int)(((byte)(224)))));
-            this.panel11.Controls.Add(this.label21);
-            this.panel11.Controls.Add(this.label22);
+            this.panel11.Controls.Add(this.lblKasadakiTutar);
+            this.panel11.Controls.Add(this.lbl676);
             this.panel11.Location = new System.Drawing.Point(300, 439);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(243, 171);
             this.panel11.TabIndex = 6;
             // 
-            // label21
+            // lblKasadakiTutar
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(33, 76);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(33, 40);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "0";
+            this.lblKasadakiTutar.AutoSize = true;
+            this.lblKasadakiTutar.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblKasadakiTutar.Location = new System.Drawing.Point(33, 76);
+            this.lblKasadakiTutar.Name = "lblKasadakiTutar";
+            this.lblKasadakiTutar.Size = new System.Drawing.Size(33, 40);
+            this.lblKasadakiTutar.TabIndex = 1;
+            this.lblKasadakiTutar.Text = "0";
             // 
-            // label22
+            // lbl676
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(21, 15);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(144, 26);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Kasadaki Tutar";
+            this.lbl676.AutoSize = true;
+            this.lbl676.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl676.Location = new System.Drawing.Point(21, 15);
+            this.lbl676.Name = "lbl676";
+            this.lbl676.Size = new System.Drawing.Size(144, 26);
+            this.lbl676.TabIndex = 0;
+            this.lbl676.Text = "Kasadaki Tutar";
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(101)))), ((int)(((byte)(116)))));
-            this.panel12.Controls.Add(this.label23);
-            this.panel12.Controls.Add(this.label24);
+            this.panel12.Controls.Add(this.lblSehirSayisi);
+            this.panel12.Controls.Add(this.lbl898);
             this.panel12.Location = new System.Drawing.Point(32, 439);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(243, 171);
             this.panel12.TabIndex = 3;
             // 
-            // label23
+            // lblSehirSayisi
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(33, 76);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(33, 40);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "0";
+            this.lblSehirSayisi.AutoSize = true;
+            this.lblSehirSayisi.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSehirSayisi.Location = new System.Drawing.Point(33, 76);
+            this.lblSehirSayisi.Name = "lblSehirSayisi";
+            this.lblSehirSayisi.Size = new System.Drawing.Size(33, 40);
+            this.lblSehirSayisi.TabIndex = 1;
+            this.lblSehirSayisi.Text = "0";
             // 
-            // label24
+            // lbl898
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(21, 15);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(114, 26);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Şehir Sayısı";
+            this.lbl898.AutoSize = true;
+            this.lbl898.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl898.Location = new System.Drawing.Point(21, 15);
+            this.lbl898.Name = "lbl898";
+            this.lbl898.Size = new System.Drawing.Size(114, 26);
+            this.lbl898.TabIndex = 0;
+            this.lbl898.Text = "Şehir Sayısı";
             // 
             // FrmIstatistik
             // 
@@ -460,6 +460,7 @@
             this.Name = "FrmIstatistik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmIstatistik";
+            this.Load += new System.EventHandler(this.FrmIstatistik_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -494,37 +495,37 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblToplamUrun;
+        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblAktifMusteri;
+        private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblPasifMusteri;
+        private System.Windows.Forms.Label lbl44;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblEndusukFiyatliUrun;
+        private System.Windows.Forms.Label lbl45783;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label lblEnyuksekFiyatlıUrun;
+        private System.Windows.Forms.Label lbl2389;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblToplamStok;
+        private System.Windows.Forms.Label lbl5341;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblBeyazEsya;
+        private System.Windows.Forms.Label lbl4545;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label lblToplamBuzdolabiSayisi;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblEnfazlaUrunluMarka;
+        private System.Windows.Forms.Label lbl6583;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label lblKasadakiTutar;
+        private System.Windows.Forms.Label lbl676;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label lblSehirSayisi;
+        private System.Windows.Forms.Label lbl898;
     }
 }
