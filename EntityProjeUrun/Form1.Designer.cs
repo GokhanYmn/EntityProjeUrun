@@ -34,7 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnListele = new System.Windows.Forms.Button();
             this.btnEkle = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -92,14 +92,15 @@
             this.btnEkle.UseVisualStyleBackColor = true;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
-            // button3
+            // btnGuncelle
             // 
-            this.button3.Location = new System.Drawing.Point(221, 187);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(139, 41);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Güncelle";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Location = new System.Drawing.Point(221, 187);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(139, 41);
+            this.btnGuncelle.TabIndex = 6;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -127,7 +128,7 @@
             this.ClientSize = new System.Drawing.Size(998, 262);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnSil);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.btnListele);
             this.Controls.Add(this.textBox2);
@@ -153,7 +154,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnListele;
         private System.Windows.Forms.Button btnEkle;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnGuncelle;
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
